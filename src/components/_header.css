@@ -1,0 +1,13 @@
+.header__title {
+  display: flex;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  color: #64c4ed;
+  border-bottom: 1px #dfdfdf solid;
+  margin-bottom: 30px;
+}
+.header__icon {
+  /* cursor: pointer; */
+  color: #dfdfdf;
+}

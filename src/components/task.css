@@ -1,0 +1,143 @@
+.task{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; 
+  padding: 5px;
+}
+.task:hover{
+  background:#F2F2F2;
+}
+
+.task__item{
+font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+}
+
+
+.checkbox__lable{
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.checkbox__input{
+  position: absolute;
+  visibility: hidden;
+}
+
+.check__box{
+  flex:2 0 300px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: -30px;
+  border: 2px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+
+
+
+.checkbox__input:checked + .check__box {
+  background-color: #4DD599;
+  border:none;
+}
+
+.checkbox__input:checked + .check__box::after{
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  fill: aliceblue;
+  width: 16px;
+  height: 15px;
+  background: url('./checked.svg')
+}
+.checkbox__input:checked  +  .checkbox{
+  background:#4DD599;
+}
+
+.checkbox{
+  flex:3;
+  display: flex;
+  align-items:center;
+}
+.task__del{
+  visibility: hidden;
+  margin-right: 10px;
+}
+.task:hover .task__del{
+  visibility: visible;
+  cursor: pointer;
+}
+
+.task__done{
+    text-decoration: line-through;
+    color: #B2B2B2;
+}
+.task__add{
+  display:flex;
+  align-items:center;
+  cursor: pointer;
+}
+.task__add-active{
+  display: flex;
+  flex-direction: column;
+}
+
+.task__input{
+  padding:10px;
+  border: 1px solid #EFEFEF;
+  border-radius: 4px;
+}
+.task__input:focus{
+  outline: #9C9C9C;
+}
+.add-task__title{
+  margin: 0 0 0 13px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.15px;
+  color: #B4B4B4;
+}
+.task__butns{
+  margin-top: 24px;
+}
+
+.task__btn{
+  padding: 8px 10px 11px;
+  border: none;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  border-radius: 4px;
+}
+
+.add__btn{
+  margin-right: 9px;
+  background:#4DD599;
+  color: white;
+}
+.cancel__btn{
+  background: #F4F6F8;
+  color: #9C9C9C;
+}
+
+.not-tasks__title{
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.15px;
+  color: #B4B4B4;
+  font-weight: 200;
+  font-style: italic;
+  
+}
