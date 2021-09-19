@@ -1,3 +1,15 @@
+
+# About project
+
+
+This app helps people to manage their live creating to do list. \
+You can add new task, del task and line throught task which are done
+
+<img width="1070" alt="Screenshot 2021-09-19 at 12 39 55" src="https://user-images.githubusercontent.com/24814555/133922918-98ce5d6e-6aeb-4c89-950c-9a9e6e30e8e9.png">
+
+
+<img width="1070" alt="Screenshot 2021-09-19 at 12 40 21" src="https://user-images.githubusercontent.com/24814555/133922902-7ae173d7-2daf-4dc3-8fd0-075bbcfd3215.png">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
